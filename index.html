@@ -291,11 +291,10 @@
                     <h5 class="modal-title" id="exampleModalToggleLabel5">
 
                         <!-- Icon starts  -->
-                        <img
-                            src="https://img.icons8.com/external-bartama-outline-64-bartama-graphic/64/000000/external-moving-real-estate-outline-bartama-outline-64-bartama-graphic.png" />
+                        <img src="https://img.icons8.com/ios/50/000000/cottage--v1.png" />
                         <!-- Icon ends  -->
 
-                        Type of Service
+                        Size of Home/Project
 
                     </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -304,42 +303,144 @@
 
 
                     <!-- check list starts  -->
-                    <div>
-                        Size of Home/Project
+                    <p>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Number of Rooms</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="3">4</option>
+                            <option value="3">5+</option>
+                        </select>
+                    </p>
+                    <!-- check list ends  -->
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle6"
+                        data-bs-toggle="modal">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 5th modal end  -->
+
+    <!-- 6th modal starts  -->
+    <div class="modal fade" id="exampleModalToggle6" aria-hidden="true" aria-labelledby="exampleModalToggleLabel6"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel6">
+
+                        <!-- Icon starts  -->
+                        <img
+                            src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-date-time-management-xnimrodx-lineal-xnimrodx.png" />
+                        <!-- Icon ends  -->
+
+                        Date of Service
+
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+
+                    <label for="start">Select Date</label>
+
+                    <input type="date" id="start" name="trip-start" value="today" min="2022-01-01" max="2100-12-31">
+                    <!-- <p>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Date</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="10/24/1994">
                     </div>
-                    Number of Rooms
+                    </p> -->
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle7"
+                        data-bs-toggle="modal">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 6th modal end  -->
+
+    <!-- 7th modal starts  -->
+    <div class="modal fade" id="exampleModalToggle7" aria-hidden="true" aria-labelledby="exampleModalToggleLabel7"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel7">
+
+                        <!-- Icon starts  -->
+                        <img
+                            src="https://img.icons8.com/external-phatplus-lineal-phatplus/64/000000/external-destination-map-phatplus-lineal-phatplus.png" />
+                        <!-- Icon ends  -->
+
+                        Destination
+
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <!-- form starts  -->
+                    <p>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Adress</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="1234 College Muscle Dr">
+                    </div>
+                    </p>
+
+                    <p>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">City</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Lodi">
+                    </div>
+                    </p>
+
+                    <p>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>State</option>
+                            <option value="1">CA</option>
+                            <option value="2">AZ</option>
+                            <option value="3">OR</option>
+                        </select>
+                    </p>
+
+                    <p>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Zip/Postal Code</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="95632">
+                    </div>
+                    </p>
+
+                    <!-- additional stops -->
+
+                    <p>Additional Stops?</p>
+                    <!-- list starts  -->
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
-                            1
+                            Yes
                         </label>
+
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
-                            2
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                            3
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                            4
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                            5/More
+                            No
                         </label>
                     </div>
 
                     <!-- check list ends  -->
+
+
+
+                    <!-- form ends  -->
 
                 </div>
                 <div class="modal-footer">
@@ -349,7 +450,7 @@
             </div>
         </div>
     </div>
-    <!-- 5th modal end  -->
+    <!-- 7th modal end  -->
 
     <!-- original spot for "free qoute button"  -->
 
