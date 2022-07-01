@@ -37,6 +37,9 @@
                     <a class="nav-link disabled">FAQ</a>
                     <a class="nav-link" href="#">Quick Links</a>
                     <a class="nav-link disabled">Moving Check list</a>
+                    <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
+                        Free Qoute
+                    </a>
                 </div>
             </div>
         </div>
@@ -44,29 +47,33 @@
 
     <!-- Nav bar Ends -->
 
+
+    <!-- first modal  -->
     <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
         tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalToggleLabel">Full Name</h5>
+                    <h5 class="modal-title" id="exampleModalToggleLabel">
+
+                        <!-- icon starts -->
+                        <img src="https://img.icons8.com/pastel-glyph/64/000000/name.png" />
+                        <!-- icon ends -->
+
+                        Full Name
+
+                    </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <!-- icon starts here -->
-                    <p>
-                        <img
-                            src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-moving-moving-and-storage-flaticons-flat-flat-icons-6.png" />
-                    </p>
-                    <!-- icon ends here -->
-
-                    <!-- modal starts -->
+                    <!-- form starts  -->
                     <p>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">First & Last</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
                     </div>
                     </p>
+                    <!-- form ends  -->
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
@@ -75,31 +82,117 @@
             </div>
         </div>
     </div>
+    <!-- 1st modal ends  -->
+
+    <!-- 2nd modal starts  -->
     <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
         tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                    <h5 class="modal-title" id="exampleModalToggleLabel2">
+
+                        <!-- Icon starts  -->
+                        <img src="https://img.icons8.com/ios/50/000000/contact-card.png" />
+                        <!-- Icon end  -->
+
+                        Contact Information
+
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- form starts  -->
+                    <p>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="JohnDoe@collegemuscle.com">
+                    </div>
+                    </p>
+                    <p>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="(209)123-4567">
+                    </div>
+                    </p>
+                    <!-- form ends  -->
+
+                    <!-- check list starts  -->
+                    <div>
+                        Prefered Contact
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Email
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Phone Number
+                        </label>
+                    </div>
+                    <!-- check list ends  -->
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle3"
+                        data-bs-toggle="modal">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 2nd modal ends  -->
+
+    <!-- 3rd modal starts  -->
+    <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel3"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel3">
+
+                        <!-- Icon starts  -->
+                        <img src="https://img.icons8.com/ios-filled/50/000000/address--v1.png" />
+                        <!-- Icon ends  -->
+
+                        Address
+
+                    </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     Hide this modal and show the first with the button below.
                 </div>
                 <div class="modal-footer">
-                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal">Open
-                        third modal</button>
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal">Back to
+                        first</button>
                 </div>
             </div>
         </div>
     </div>
-    <!-- -------- -->
-    <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel3"
+    <!-- 3rd modal end  -->
+
+    <!-- 4th modal starts  -->
+    <div class="modal fade" id="exampleModalToggle4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel4"
         tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalToggleLabel3">Modal 3</h5>
+                    <h5 class="modal-title" id="exampleModalToggleLabel4">
+
+                        <!-- Icon starts  -->
+                        <img
+                            src="https://img.icons8.com/external-bartama-outline-64-bartama-graphic/64/000000/external-moving-real-estate-outline-bartama-outline-64-bartama-graphic.png" />
+                        <!-- Icon ends  -->
+
+                        Type of Service
+
+                    </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -112,8 +205,12 @@
             </div>
         </div>
     </div>
-    <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Free Qoute</a>
-    <!-- modal ends  -->
+    <!-- 4th modal end  -->
+
+    <!-- original spot for "free qoute button"  -->
+
+    <!-- <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Free Qoute</a> -->
+
 </body>
 
 </html>
